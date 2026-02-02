@@ -45,5 +45,4 @@ server.listen(PORT, HOST, () => {
     console.log(`   - http://${HOST}:${PORT}/about`);
     console.log(`   - http://${HOST}:${PORT}/contact-me`);
     console.log(`\nAppuyez sur Ctrl+C pour arrêter le serveur.`);
-    
 });
