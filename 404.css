@@ -19,3 +19,69 @@ body {
             a:hover {
                 text-decoration: underline;
             }
+            .container {
+                max-width: 600px;
+                margin: auto;
+                background: white;
+                padding: 30px;
+                border-radius: 10px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+            .error-code {
+                font-size: 100px;
+                font-weight: bold;
+                color: #FF6F61;
+            }
+            .message {
+                font-size: 24px;
+                margin-top: 20px;
+            }
+            .home-link {
+                display: inline-block;
+                margin-top: 30px;
+                padding: 10px 20px;
+                background-color: #007BFF;
+                color: white;
+                border-radius: 5px;
+                text-decoration: none;
+            }
+            .home-link:hover {
+                background-color: #0056b3;
+            }
+            .illustration {
+                margin-top: 30px;
+                width: 100%;
+                max-width: 400px;
+            }
+            @media (max-width: 600px) {
+                .error-code {
+                    font-size: 70px;
+                }
+                .message {
+                    font-size: 18px;
+                }
+            }
+            .footer {
+                margin-top: 50px;
+                font-size: 14px;
+                color: #999;
+            }
+            .footer a {
+                color: #999;
+            }
+            .footer a:hover {
+                color: #666;
+            }
+            .highlight {
+                color: #FF6F61;
+                font-weight: bold;
+            }
+            .shadow {
+                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+            }
+            .rounded {
+                border-radius: 15px;
+            }
+            .padding {
+                padding: 20px;
+            }
